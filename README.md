@@ -63,8 +63,9 @@
 5. Обрабатываю адреса объектов для дальнейшего создания карты.
 
 ## Анализ материала
-### Блок 1. Географическое и итсорическое распределение.
+### *Блок 1.** Географическое и историческое распределение.
 С поомщью _Google Maps_ я создал интерактивную карту всех объектов культурного наследия Санкт-Петербурга (данные об адресе которых были известны) с цветовой маркировкой времени создания объекта.  
+![](https://github.com/kkolesnikkov/SPb_Heritage/blob/714e7674b9b71c2cb0508e56ee48efeb3ae382d0/visualizations/Screenshot%202026-03-25%20123611.png)
 Ссылка на карту: [SPb_Heritage_MAP_by_date](https://www.google.com/maps/d/edit?mid=15c0k8DWa6nc8QsugE-fh853ccfxI8SA&usp=drive_link)
 
 
@@ -84,6 +85,12 @@
 | Grand Total    |           1019 |              623 |        294 |         204 |       134 |         74 |                85 |            100 |           338 |       174 |        247 |     225 |           689 |            989 |        101 |        861 |         122 |        1713 |        7992 |
 
 
+![](https://github.com/kkolesnikkov/SPb_Heritage/blob/714e7674b9b71c2cb0508e56ee48efeb3ae382d0/visualizations/%D1%80%D0%B0%D1%81%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BE%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%BE%D0%B2-%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D1%83%D1%80%D0%BD%D0%BE%D0%B3%D0%BE-%D0%BD%D0%B0%D1%81%D0%BB%D0%B5%D0%B4%D0%B8%D1%8F-%D0%BF%D0%BE-%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%D0%B0%D0%BC-%D1%81%D0%B0%D0%BD%D0%BA%D1%82-%D0%BF%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3%D0%B0-%D0%B2-%D1%80%D0%B0%D0%B7%D0%BB%D0%B8%D1%87%D0%BD%D1%8B%D0%B5-%D0%BF%D0%B5%D1%80%D0%B8%D0%BE%D0%B4%D1%8B-%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B8.-.png)  
+
+
+> ВЫВОДЫ
+
+### **Блок 2.** Распределение по функции объекта.
 с помощью питона [SPb_Heritage_processing](https://github.com/kkolesnikkov/SPb_Heritage/blob/13b9210d4efecb3acd87c9d78722d31892b62a7f/SPb_Heritage_processing.ipynb) я проанализировал названия объектов и выделил ключевые маркеры функций, которые упоминаются в названиях. После этого я смог выделить преобладающие категории объектов.  
 ![](visualizations/lN3th-упоминание-функций-в-названиях-объектов-.png)
 
@@ -94,13 +101,16 @@
 
 
 После этого  составил две сводные таблицы:  
-1. Сводная таблица: функция объекта и период его появления
-![](https://github.com/kkolesnikkov/SPb_Heritage/blob/13b9210d4efecb3acd87c9d78722d31892b62a7f/visualizations/M5C3m-%D1%80%D0%B0%D1%81%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BE%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%BE%D0%B2-%D0%BF%D0%BE-%D0%B8%D1%85-%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B8-%D0%B8-%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%B8-%D0%B2%D0%BE%D0%B7%D0%BD%D0%B8%D0%BA%D0%BD%D0%BE%D0%B2%D0%B5%D0%BD%D0%B8%D1%8F-.png)
+Сводная таблица: функция объекта и период его появления
 
 
-2. Сводная таблица: функция и район
+![Сводная таблица: функция и период появления](https://github.com/kkolesnikkov/SPb_Heritage/blob/13b9210d4efecb3acd87c9d78722d31892b62a7f/visualizations/M5C3m-%D1%80%D0%B0%D1%81%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BE%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%BE%D0%B2-%D0%BF%D0%BE-%D0%B8%D1%85-%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B8-%D0%B8-%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%B8-%D0%B2%D0%BE%D0%B7%D0%BD%D0%B8%D0%BA%D0%BD%D0%BE%D0%B2%D0%B5%D0%BD%D0%B8%D1%8F-.png)
+[](https://www.datawrapper.de/_/M5C3m/)
+
+![](https://github.com/kkolesnikkov/SPb_Heritage/blob/714e7674b9b71c2cb0508e56ee48efeb3ae382d0/visualizations/KQWHZ-%D1%80%D0%B0%D1%81%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BE%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%BE%D0%B2-%D0%BF%D0%BE-%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%D1%83-%D0%B8-%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B8-%20(1).png)
+[Сводная таблица: функция и район](https://www.datawrapper.de/_/KQWHZ/)
 
 
-
+> ВЫВОДЫ
 
 улучшения: разбивка даты постройки на логиччно исторически обоснованные периоды, более аккуратная работа с авторами

@@ -61,7 +61,7 @@
 ## Анализ материала
 ### Блок 1. Географическое и историческое распределение.
 С поомщью _Google Maps_ я создал интерактивную карту всех объектов культурного наследия Санкт-Петербурга (данные об адресе которых были известны) с цветовой маркировкой времени создания объекта.  
-![](https://github.com/kkolesnikkov/SPb_Heritage/blob/714e7674b9b71c2cb0508e56ee48efeb3ae382d0/visualizations/Screenshot%202026-03-25%20123611.png)
+![](https://github.com/kkolesnikkov/SPb_Heritage/blob/cee603666e9a2affebf123c1c351da1e2be93387/visualizations/Screenshot%202026-03-26%20010535.png)
 Ссылка на карту: [SPb_Heritage_MAP_by_date](https://www.google.com/maps/d/u/0/edit?mid=1JKC_rYtWt4tN60z6LX5N5EYIQfESWyg&usp=sharing)
 
 

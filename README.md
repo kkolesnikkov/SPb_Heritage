@@ -84,7 +84,21 @@
 | Grand Total    |           1019 |              623 |        294 |         204 |       134 |         74 |                85 |            100 |           338 |       174 |        247 |     225 |           689 |            989 |        101 |        861 |         122 |        1713 |        7992 |
 
 
-7. с помощью питона (SPb_Heritage_processing) я проанализировал названия объектов и выделил ключевые маркеры функций, которые упоминаются в названиях.
+с помощью питона [SPb_Heritage_processing](https://github.com/kkolesnikkov/SPb_Heritage/blob/13b9210d4efecb3acd87c9d78722d31892b62a7f/SPb_Heritage_processing.ipynb) я проанализировал названия объектов и выделил ключевые маркеры функций, которые упоминаются в названиях. После этого я смог выделить преобладающие категории объектов.  
+![](visualizations/lN3th-упоминание-функций-в-названиях-объектов-.png)
+
+
+и составить вторую интерактивную карту, на которой цветом маркируются функции объектов.  
+![visualizations/map 2.png](https://github.com/kkolesnikkov/SPb_Heritage/blob/13b9210d4efecb3acd87c9d78722d31892b62a7f/visualizations/map%202.png)  
+Ссылка на карту: [SPb_Heritage_MAP_by_date](https://www.google.com/maps/d/edit?mid=15c0k8DWa6nc8QsugE-fh853ccfxI8SA&usp=drive_link)
+
+
+После этого  составил две сводные таблицы:  
+1. Сводная таблица: функция объекта и период его появления
+![](https://github.com/kkolesnikkov/SPb_Heritage/blob/13b9210d4efecb3acd87c9d78722d31892b62a7f/visualizations/M5C3m-%D1%80%D0%B0%D1%81%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BE%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%BE%D0%B2-%D0%BF%D0%BE-%D0%B8%D1%85-%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B8-%D0%B8-%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%B8-%D0%B2%D0%BE%D0%B7%D0%BD%D0%B8%D0%BA%D0%BD%D0%BE%D0%B2%D0%B5%D0%BD%D0%B8%D1%8F-.png)
+
+
+2. Сводная таблица: функция и район
 
 
 

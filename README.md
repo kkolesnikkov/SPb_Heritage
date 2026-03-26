@@ -61,27 +61,16 @@
 ## Анализ материала
 ### Блок 1. Географическое и историческое распределение.
 С поомщью _Google Maps_ я создал интерактивную карту всех объектов культурного наследия Санкт-Петербурга (данные об адресе которых были известны) с цветовой маркировкой времени создания объекта.  
-![](https://github.com/kkolesnikkov/SPb_Heritage/blob/cee603666e9a2affebf123c1c351da1e2be93387/visualizations/Screenshot%202026-03-26%20010535.png)
-Ссылка на карту: [SPb_Heritage_MAP_by_date](https://www.google.com/maps/d/u/0/edit?mid=1JKC_rYtWt4tN60z6LX5N5EYIQfESWyg&usp=sharing)
+[](https://github.com/kkolesnikkov/SPb_Heritage/blob/cee603666e9a2affebf123c1c351da1e2be93387/visualizations/Screenshot%202026-03-26%20010535.png)
+Ссылка на карту: ![SPb_Heritage_MAP_by_date](https://www.google.com/maps/d/u/0/edit?mid=1JKC_rYtWt4tN60z6LX5N5EYIQfESWyg&usp=sharing)
 
 
 Я создал сводную таблицу по району и историческому эпизоду появления объекта.  
-| date_buckets_2 | Адмиралтейский | Василеостровский | Выборгский | Калининский | Кировский | Колпинский | Красногвардейский | Красносельский | Кронштадтский | Курортный | Московский | Невский | Петроградский | Петродворцовый | Приморский | Пушкинский | Фрунзенский | Центральный | Grand Total |
-|----------------|----------------|------------------|------------|-------------|-----------|------------|-------------------|----------------|---------------|-----------|------------|---------|---------------|----------------|------------|------------|-------------|-------------|-------------|
-| 1450-1499      |                |                1 |            |             |           |            |                   |                |               |           |            |         |               |                |            |            |             |             |           1 |
-| 1600-1649      |                |                  |            |             |           |            |                   |              1 |               |           |            |         |               |                |            |            |             |             |           1 |
-| 1650-1699      |                |                  |            |             |           |            |                   |                |               |           |            |         |               |             12 |            |            |             |             |          12 |
-| 1700-1749      |             21 |               60 |          4 |             |         3 |            |                   |             10 |            27 |         2 |            |         |            32 |            127 |          1 |         20 |             |         125 |         432 |
-| 1750-1799      |            172 |               56 |          9 |           6 |         8 |          2 |                10 |              3 |            19 |         3 |          4 |       7 |            22 |            104 |          4 |        219 |           3 |         238 |         889 |
-| 1800-1849      |            326 |              153 |         34 |          30 |        10 |         18 |                12 |             35 |           128 |        20 |         25 |      26 |           105 |            391 |         15 |        313 |           9 |         520 |        2170 |
-| 1850-1899      |            274 |              180 |         59 |          85 |        18 |         18 |                30 |             25 |           104 |        22 |         48 |      63 |           129 |            177 |         36 |        132 |          21 |         419 |        1840 |
-| 1900-1949      |            211 |              154 |        174 |          73 |        85 |         30 |                20 |             18 |            45 |        99 |        112 |     124 |           358 |            119 |         39 |        167 |          60 |         358 |        2246 |
-| 1950-1999      |              9 |               13 |          9 |          10 |        10 |          6 |                 9 |              7 |             1 |        17 |         56 |       5 |            21 |             21 |          4 |          9 |          28 |          24 |         259 |
-| 2000-2049      |              6 |                6 |          5 |             |           |            |                 4 |              1 |            14 |        11 |          2 |         |            22 |             38 |          2 |          1 |           1 |          29 |         142 |
-| Grand Total    |           1019 |              623 |        294 |         204 |       134 |         74 |                85 |            100 |           338 |       174 |        247 |     225 |           689 |            989 |        101 |        861 |         122 |        1713 |        7992 |
+![](https://github.com/kkolesnikkov/SPb_Heritage/blob/0038eb0debeea0ddaf02b98bc8f68fb1ad9cc84f/visualizations/%D0%A1%D0%A2.%20%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%20-%D0%BF%D0%B5%D1%80%D0%B8%D0%BE%D0%B4.png)  
+[Сводная таблица: район и период возниконовения объекта](https://www.datawrapper.de/_/3XfaQ/)
 
 
-![](https://github.com/kkolesnikkov/SPb_Heritage/blob/714e7674b9b71c2cb0508e56ee48efeb3ae382d0/visualizations/%D1%80%D0%B0%D1%81%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BE%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%BE%D0%B2-%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D1%83%D1%80%D0%BD%D0%BE%D0%B3%D0%BE-%D0%BD%D0%B0%D1%81%D0%BB%D0%B5%D0%B4%D0%B8%D1%8F-%D0%BF%D0%BE-%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%D0%B0%D0%BC-%D1%81%D0%B0%D0%BD%D0%BA%D1%82-%D0%BF%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3%D0%B0-%D0%B2-%D1%80%D0%B0%D0%B7%D0%BB%D0%B8%D1%87%D0%BD%D1%8B%D0%B5-%D0%BF%D0%B5%D1%80%D0%B8%D0%BE%D0%B4%D1%8B-%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B8.-.png)  
+![](https://github.com/kkolesnikkov/SPb_Heritage/blob/b361611933379e7bae5be95a9b36522de707bfff/visualizations/%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D0%BA.%20%D1%80%D0%B0%D1%81%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BF%D0%BE%20%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%D0%B0%D0%BC.png)  
 [Распределение объектов культурного наследия по районам Санкт-Петербурга в различные периоды истории.](https://www.datawrapper.de/_/svSMN/)
 
 
@@ -98,11 +87,10 @@
 
 
 После этого, предварительно проведя еще одну обработку ([SPb_Heritage_processing_2](https://github.com/kkolesnikkov/SPb_Heritage/blob/b686b14ccae23a16c2d95a5b65b4ffdebe62eaab/SPb_Heritage_processing_2.ipynb) на питоне для выделения соотношения районов и функций, составил две сводные таблицы:  
-Сводная таблица: функция объекта и период его появления
 
 
-![Сводная таблица: функция и период появления](https://github.com/kkolesnikkov/SPb_Heritage/blob/13b9210d4efecb3acd87c9d78722d31892b62a7f/visualizations/M5C3m-%D1%80%D0%B0%D1%81%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BE%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%BE%D0%B2-%D0%BF%D0%BE-%D0%B8%D1%85-%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B8-%D0%B8-%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%B8-%D0%B2%D0%BE%D0%B7%D0%BD%D0%B8%D0%BA%D0%BD%D0%BE%D0%B2%D0%B5%D0%BD%D0%B8%D1%8F-.png)
-[](https://www.datawrapper.de/_/M5C3m/)
+![Сводная таблица: функция и период появления](https://github.com/kkolesnikkov/SPb_Heritage/blob/4835345d35fb2f4272b7fb3939f99b606b2fd7b4/visualizations/%D0%A1%D0%A2.%20%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D1%8F%20-%D0%B2%D1%80%D0%B5%D0%BC%D1%8F.png)  
+[Сводная таблица: функция объекта и период его появления](https://www.datawrapper.de/_/M5C3m/)
 
 ![](https://github.com/kkolesnikkov/SPb_Heritage/blob/714e7674b9b71c2cb0508e56ee48efeb3ae382d0/visualizations/KQWHZ-%D1%80%D0%B0%D1%81%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BE%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%BE%D0%B2-%D0%BF%D0%BE-%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%D1%83-%D0%B8-%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B8-%20(1).png)
 [Сводная таблица: функция и район](https://www.datawrapper.de/_/KQWHZ/)

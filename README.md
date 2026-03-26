@@ -66,7 +66,7 @@
 
 
 Я создал сводную таблицу по району и историческому эпизоду появления объекта.  
-![](https://github.com/kkolesnikkov/SPb_Heritage/blob/c3da700ee1ad3c134606d3b4ed9839fde85f3ab6/visualizations/%D0%A1%D0%A2_2_%D1%80%D0%B0%D1%84%D0%BE%D0%BD%20_%D0%B4%D0%B0%D1%82%D0%B0.png)  
+![](https://github.com/kkolesnikkov/SPb_Heritage/blob/80e4f3ca52cfca77de62a96598b164972dd8e30e/visualizations/3_%D0%A1%D0%A2_%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%20%D0%B4%D0%B0%D1%82%D0%B0.png)  
 [Сводная таблица: район и период возниконовения объекта](https://www.datawrapper.de/_/3XfaQ/)
 
 
